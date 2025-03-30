@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7780244289226236842
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_AbstractLines
-  m_Shader: {fileID: -6465566751694194690, guid: b7d0a192a562f1946aec685585d2e990, type: 3}
+  m_Name: M_Halftone
+  m_Shader: {fileID: -6465566751694194690, guid: 39e6885f52a5ac040804376f64f7390c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,42 +51,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DotSize: 0.2
-    - _Line_Rings: 8
-    - _Line_Tickness: 0.05
+    - _DotSize: 4.1
     - _NoiseSize: 20
-    - _Noise_Scale: 20
-    - _Opacity: 1
-    - _Power: -0.2
+    - _Power: -0.35
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotate: 0
-    - _Speed: 1.86
-    - _X: 0
-    - _Y: 0
-    - _Z: 1
-    - _isPerlin: 1
+    - _Rotate: 180
     m_Colors:
-    - _BG_Color: {r: 0, g: 0, b: 0, a: 1}
-    - _Background: {r: 0, g: 0, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DotsSpeed: {r: 0, g: 0.005, b: 0, a: 0}
-    - _Foreground: {r: 1, g: 1, b: 1, a: 1}
-    - _Lines_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _NoiseSpeed: {r: 0, g: 0.05, b: 0, a: 0}
-    - _Placement: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DotsSpeed: {r: 0, g: -5, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0, g: -5, b: 0, a: 0}
+    - _Placement: {r: 0.5, g: 29.53, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &2790256515357617456
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 9
