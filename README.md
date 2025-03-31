@@ -6,11 +6,13 @@ This is a personal collection of shaders made using Unity Shader Graph. Each sha
 
 ## 1. Abstract Lines
 
-A looping shader that creates a dynamic, flowing line pattern based on noise.
+A looping shader that creates a dynamic, flowing line pattern based on 3D noise.
 
 ![Abstract Lines Preview](gifs/abstract-lines.gif)
 
-Inspired by [Perlin Noise](https://www.ronja-tutorials.com/post/026-perlin-noise/) - Ronja's tutorials
+Inspired by [Perlin Noise](https://www.ronja-tutorials.com/post/026-perlin-noise/) from Ronja's tutorials
+Built using [Noisy Nodes](https://github.com/JimmyCushnie/Noisy-Nodes) by JimmyCushnie.
+
 
 > Designed for Unity 2022+ using URP + Shader Graph
 
